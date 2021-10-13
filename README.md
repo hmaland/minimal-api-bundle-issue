@@ -10,6 +10,7 @@ Running **dotnet ef migrations bundle** fails when SwashBuckle.AspNetCore nuget 
 
 Here is complete output:
 
+```bash
 C:\src\minimal-api-bundle-issue>dotnet ef migrations bundle --project MigrationsBundle --verbose
 Using project 'C:\src\minimal-api-bundle-issue\MigrationsBundle\MigrationsBundle.csproj'.
 Using startup project 'C:\src\minimal-api-bundle-issue\MigrationsBundle\MigrationsBundle.csproj'.
@@ -76,5 +77,4 @@ Microsoft.EntityFrameworkCore.Tools.CommandException: Build failed. Use --verbos
    at Microsoft.DotNet.Cli.CommandLine.CommandLineApplication.Execute(String[] args)
    at Microsoft.EntityFrameworkCore.Tools.Program.Main(String[] args)
 Build failed. Use --verbose to see errors.
-
-
+```

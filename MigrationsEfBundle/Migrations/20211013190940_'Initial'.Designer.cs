@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using MigrationsBundle;
+using MigrationsEfBundle;
 
 #nullable disable
 
-namespace MigrationsBundle.Migrations
+namespace MigrationsEfBundle.Migrations
 {
     [DbContext(typeof(TodoDbContext))]
     [Migration("20211013190940_'Initial'")]
@@ -23,7 +23,7 @@ namespace MigrationsBundle.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("MigrationsBundle.TodoItem", b =>
+            modelBuilder.Entity("MigrationsEfBundle.TodoItem", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

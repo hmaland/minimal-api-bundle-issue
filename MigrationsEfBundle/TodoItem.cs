@@ -1,4 +1,4 @@
-﻿namespace MigrationsBundle
+﻿namespace MigrationsEfBundle
 {
     public class TodoItem
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace MigrationsBundle
+namespace MigrationsEfBundle
 {
     public class TodoDbContext : DbContext
     {

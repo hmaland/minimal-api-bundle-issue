@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "MigrationsBundle": {
+    "MigrationsEfBundle": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

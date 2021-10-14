@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using MigrationsBundle;
+using MigrationsEfBundle;
 
 #nullable disable
 
-namespace MigrationsBundle.Migrations
+namespace MigrationsEfBundle.Migrations
 {
     [DbContext(typeof(TodoDbContext))]
     partial class TodoDbContextModelSnapshot : ModelSnapshot
@@ -21,7 +21,7 @@ namespace MigrationsBundle.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("MigrationsBundle.TodoItem", b =>
+            modelBuilder.Entity("MigrationsEfBundle.TodoItem", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using MigrationsBundle;
+using MigrationsEfBundle;
 
 var builder = WebApplication.CreateBuilder(args);
 

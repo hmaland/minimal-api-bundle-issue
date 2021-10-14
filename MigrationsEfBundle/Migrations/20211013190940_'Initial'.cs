@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace MigrationsBundle.Migrations
+namespace MigrationsEfBundle.Migrations
 {
     public partial class Initial : Migration
     {
